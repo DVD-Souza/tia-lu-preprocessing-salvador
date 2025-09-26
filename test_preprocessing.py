@@ -3,7 +3,7 @@ from unittest.mock import patch
 import copy
 
 # Importa as classes do seu arquivo
-from preprocessing import Preprocessing, MissingValueProcessor, Scaler, Encoder
+from preprocessing_lib import Preprocessing, MissingValueProcessor, Scaler, Encoder
 
 class TestMissingValueProcessor(unittest.TestCase):
     
